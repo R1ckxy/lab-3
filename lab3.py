@@ -190,7 +190,7 @@ def generate_random_maze(n, m, wall_prob=0.3):
 
 
 def test_performance():
-    # Генерируем один случайный размер лабиринта от 1 до 1000
+    # Генерируем один случайный размер лабиринта от 1 до 100
     n, m = random.randint(1, 100), random.randint(1, 100)
     print(f"Тестируем лабиринт размером {n}x{m}")
 
