@@ -4,6 +4,8 @@ from collections import deque
 from queue import LifoQueue
 
 
+print("Работу выполнил Чучкалов Александр 090304-РПИб-о24")
+print("------------------------")
 class MazeSolver:
     def __init__(self, maze):
         self.maze = maze
